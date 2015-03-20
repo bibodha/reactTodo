@@ -31,3 +31,7 @@ node_modules/
 
 #Data directory used by mongo
 data/
+data/db/
+*.0
+*.ns
+*.lock
