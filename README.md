@@ -1,8 +1,8 @@
 # reactTodo
-Todo using ReactJs
+Todo using ReactJs [Demo](https://reacttodo.herokuapp.com/)
 
 #What-chu-need:
-Webpack
+Webpack (if you want to edit jsx file*)
 `npm install webpack -g`
 
 Mongodb
@@ -15,6 +15,7 @@ Less compiler (if you want to edit the less file)
 
 install everyting `npm install`
 
+(If you want to edit jsx file)
 compile everything using weback `webpack` (optionally `webpack -w` to run on watch mode)
 
 start mongodb `mongod --dbpath /data/db`
