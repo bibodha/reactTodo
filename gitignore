@@ -13,21 +13,21 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# node-waf configuration
+.lock-wscript
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directory
-# Deployed apps should consider commenting this line out:
-# see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
-node_modules/
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
 
 #Mac
 .DS_Store
-
-#Intellij
-.idea/
-*.iml
-*.iws
 
 #Data directory used by mongo
 data/
